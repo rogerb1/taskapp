@@ -45,11 +45,9 @@ function getTasks() {
     }
 }
 
-getTasks();
 
-
-/*function deleteTask(title) {
-    let tasks = JSON.stringify(localStorage.getItem("tasks"));
+function deleteTask(title) {
+    let tasks = JSON.parse(localStorage.getItem("tasks"));
     for (let i = 0; i < tasks.length; i++) {
         if (tasks[i].title == title) {
             tasks.splice(i, 1);
@@ -57,4 +55,6 @@ getTasks();
     }
     localStorage.setItem("tasks", JSON.stringify(tasks));
     getTasks();
-}*/
+}
+
+getTasks();
