@@ -21,7 +21,7 @@ function saveTask(e) {
         localStorage.setItem("tasks", JSON.stringify(tasks));
     }
 
-    //document.getElementById("entire-form").reset();
+    document.getElementById("entire-form").reset();
     getTasks();
     e.preventDefault();
 }
