@@ -1,0 +1,38 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+p {
+    margin-bottom: 15px;
+}
+
+.task-field-container {
+    border: 2px solid black;
+}
+
+.entire-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+input[type=text]{
+    width: 400px;
+}
+
+.task-container {
+    border: 2px solid black;
+}
+
+.tasks {
+    padding: 40px; 
+}
+
+a {
+    margin-top: 25px;
+    color: #fff;
+    background: firebrick;
+    padding: 5px;
+}
